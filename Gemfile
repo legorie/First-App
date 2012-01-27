@@ -5,14 +5,14 @@ gem 'rails', '3.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3','1.3.3'
+gem 'sqlite3'
 
 # lps3 : added rspec
 group :development do
   gem 'rspec-rails', '2.6.1'
 end
 
-#lps3 : added pg
+#lps3 : added pg for heroku
 group :production do
   gem 'pg'
 end
